@@ -1,0 +1,19 @@
+<!-- upload.wxml -->
+<view class="upload-container">
+  <button bindtap="chooseImage">选择图片</button>
+  <button bindtap="uploadFile">上传文件</button>
+  
+
+  <!-- 原本的文字说明部分 -->
+  <!-- <text>请输入文字说明：</text> -->
+
+  <!-- 新增的多行文本框 -->
+  <view class="textarea-container">
+
+    <text>请输入文字说明：</text>
+    <textarea placeholder="请输入文字说明" value="{{text}}" bindinput="onTextChange" />
+  </view>
+<button bindtap="upload">上传</button>
+</view>
+
+

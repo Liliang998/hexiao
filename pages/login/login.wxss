@@ -1,0 +1,32 @@
+/* pages/login/login.wxss */
+/* 添加或修改以下样式 */
+.login-container input {
+  border: 1px solid #ccc; /* 设置边框宽度、样式和颜色 */
+  border-radius: 5px; /* 设置边框圆角 */
+  padding: 10px; /* 设置内边距，使输入框看起来更美观 */
+  margin-bottom: 10px; /* 设置输入框之间的间距 */
+}
+
+/* 可选：为输入框添加焦点时的样式 */
+.login-container input:focus {
+  border-color: #007aff; /* 设置焦点时的边框颜色 */
+  outline: none; /* 去除默认的焦点轮廓 */
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 图片居中 */
+  /* 其他样式 */
+}
+
+.login-image {
+  width: 100%; /* 图片宽度适应屏幕宽度 */
+  height: auto; /* 高度自适应 */
+  /* max-width: 300px; 可以设置一个最大宽度，防止图片过大 */
+}
+
+.spacer {
+  height: 40px; /* 设置间隔高度 */
+  width: 100%; /* 宽度设为100%以占满容器宽度 */
+}

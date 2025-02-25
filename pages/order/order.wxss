@@ -1,0 +1,38 @@
+/* order.wxss */
+.order-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.category-button {
+  width: 45%;
+}
+
+.orders-list {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.order-section {
+  width: 100%;
+}
+
+.order-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.redeem-button {
+  margin-left: 150px; /* 与订单信息保持一定距离 */
+  padding: 0px 10px; /* 设置较小的内边距 */
+  font-size: 14px; /* 设置较小的字体大小 */
+}

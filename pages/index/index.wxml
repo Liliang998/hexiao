@@ -1,0 +1,14 @@
+<!-- index.wxml -->
+<view class="container">
+  <form bindsubmit="onLogin">
+    <view class="input-group">
+      <text class="label" selectable>手机号</text>    <!--支持长按选中效果-->
+      <input type="number" class="input" placeholder="请输入手机号" name="phone" bindinput="onPhoneInput" />
+    </view>
+    <view class="input-group">
+      <text class="label">密码</text>
+      <input type="password" class="input" placeholder="请输入密码" name="password" bindinput="onPasswordInput" />
+    </view>
+    <button type="warn" formType="submit" class="login-button">登录</button>
+  </form>
+</view>

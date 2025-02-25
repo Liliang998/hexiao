@@ -1,0 +1,30 @@
+<!-- order.wxml -->
+<view class="order-container">
+  <view class="button-container">
+    <button bindtap="showRedeemed" class="category-button">已核销订单</button>
+    <button bindtap="showNotRedeemed" class="category-button">未核销订单
+    </button>
+    
+  </view>
+
+  <view class="orders-list">
+  <!-- 已核销订单 -->
+    <view class="order-section" wx:if="{{showRedeemedOrders}}">
+      <view wx:for="{{redeemedOrders}}" wx:key="id" class="order-item">
+        <text>{{item.title}}</text>
+      </view>
+    </view>
+    <!-- 未核销订单 -->
+    <view class="order-section" wx:if="{{showNotRedeemedOrders}}">
+      <view wx:for="{{notRedeemedOrders}}" wx:key="id" class="order-item">
+        <text>{{item.title}}</text>
+        <!-- 添加核销按钮，仅在未核销订单后显示 -->
+        <button wx:if="{{!item.redeemed}}" class="redeem-button" bindtap="redeemOrder" data-order-id="{{item.orderId}}">核销</button>
+      </view>
+      
+    </view>
+    
+    </view>
+</view>
+
+

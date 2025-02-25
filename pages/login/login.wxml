@@ -1,0 +1,9 @@
+<!-- login.wxml -->
+<view class="login-container">
+  <!-- 修正图片路径，确保只有一个 .png 后缀 -->
+  <image src="/images/login_image.png" class="login-image" mode="widthFix"></image>
+  <view class="spacer"></view>   <!-- 添加一个空视图用于间隔 -->
+  <input type="text" placeholder="请输入11位数的手机号" bindinput="onPhoneInput" maxlength="11" />
+  <input type="password" placeholder="请输入6~18位数的密码" bindinput="onPasswordInput" maxlength="18" />
+  <button type="primary" bindtap="onLogin" >登录</button>
+</view>

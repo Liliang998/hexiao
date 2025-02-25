@@ -1,0 +1,10 @@
+<!--pages/main/main.wxml-->
+<view class="container">
+  <image src="/images/top_image.png" mode="widthFix" class="top-image"></image>
+  <button bindtap="navigateToOrders">我的全部订单</button>
+
+</view>
+
+<!-- <view class="order-container">
+  <text>订单页面</text>
+</view> -->

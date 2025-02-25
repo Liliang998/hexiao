@@ -1,0 +1,14 @@
+{
+  "pages": [  
+    "pages/login/login", 
+    "pages/upload/upload",  
+    "pages/order/order", 
+    "pages/main/main"  
+  ],
+  "window": {
+    "navigationBarTitleText": "核销小程序"
+  },
+  "networkTimeout": {
+    "request": 30000
+  }
+}

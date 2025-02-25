@@ -1,0 +1,4 @@
+/* app.wxss - 全局样式 */
+page {
+  font-family: Arial, sans-serif;
+}

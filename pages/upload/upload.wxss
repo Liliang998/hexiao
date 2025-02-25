@@ -1,0 +1,20 @@
+/* upload.wxss */
+.input-container {
+  margin-top: 20px; /* 设置一些上边距 */
+}
+
+.input-container text {
+  display: block;
+  margin-bottom: 5px; /* 设置一些下边距 */
+}
+
+.textarea-container textarea {
+  width: 100%; /* 设置文本框宽度为100% */
+  height: 100px; /* 设置文本框高度 */
+  padding: 8px; /* 设置内边距 */
+  border: 1px solid #ccc; /* 设置边框 */
+  border-radius: 8px; /* 设置圆角 */
+  text-align: left; /* 文字左对齐 */
+  resize: none; /* 禁止用户调整大小 */
+  box-sizing: border-box; /* 确保内边距和边框包含在宽度内 */
+}
